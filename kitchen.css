@@ -96,3 +96,10 @@ header h1 {
 #global_navi ul li a:hover {
     background-color: #fa9786;
 }
+
+/* チャプター：メインビジュアル */
+#main_visual {
+    width: 984px;
+    height: 440px;
+    margin: 0 auto 25px;
+}
