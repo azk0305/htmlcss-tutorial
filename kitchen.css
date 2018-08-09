@@ -103,3 +103,19 @@ header h1 {
     height: 440px;
     margin: 0 auto 25px;
 }
+
+/*チャプター：メインとサイドバー（2カラムレイアウト）*/
+#wrapper {
+    width: 984px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main {
+    width: 730px;
+}
+
+#sidebar {
+    width: 220px;
+}
