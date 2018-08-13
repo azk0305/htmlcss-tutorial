@@ -144,3 +144,23 @@ header h1 {
 #news li a {
     margin-left: 15px;
 }
+
+/* チャプター：サイドバー */
+#side_banner ul {
+    list-style: none;
+    padding: 0;
+}
+
+#side_banner {
+    margin-bottom: 30px;
+    border: 1px solid #956840;
+    text-align: center;
+}
+
+#side_banner h2 {
+    background-color: #956840;
+    color: #fff;
+    padding: 7px;
+    font-size: 14px;
+    text-align: center;
+}
