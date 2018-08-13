@@ -104,7 +104,7 @@ header h1 {
     margin: 0 auto 25px;
 }
 
-/*チャプター：メインとサイドバー（2カラムレイアウト）*/
+/* チャプター：メインとサイドバー（2カラムレイアウト） */
 #wrapper {
     width: 984px;
     margin: 0 auto;
@@ -118,4 +118,29 @@ header h1 {
 
 #sidebar {
     width: 220px;
+}
+
+/* チャプター：メインエリア */
+.point {
+    display: flex;
+    justify-content: space-between;
+}
+
+.point figcaption {
+    font-size: 12px;
+    color: #9C9689;
+    text-align: center;
+}
+
+#news ul {
+    list-style: none;
+    padding: 0;
+}
+
+#news li {
+    margin-bottom: 10px;
+}
+
+#news li a {
+    margin-left: 15px;
 }
